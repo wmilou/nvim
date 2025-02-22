@@ -4,7 +4,7 @@
 -- -------------------------
 
 -- Call the vim config file
-require('config.vim').setup()
+require('config.vim')
 
 -- Call plugin LazyVim manager
 require("config.lazy")
